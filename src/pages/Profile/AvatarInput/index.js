@@ -1,10 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { useField } from '@rocketseat/unform';
+import { useSelector } from 'react-redux';
+import { useField } from '@unform/core';
 import api from '~/services/api';
 
 import { Container } from './styles';
 
 function Avatarinput() {
+  const profile = useSelector((state) => state.user.profile);
   const { defaultValue, registerField } = useField('avatar');
 
   const [file, setFile] = useState(defaultValue && defaultValue.id);
@@ -41,7 +43,7 @@ function Avatarinput() {
         <img
           src={
             preview ||
-            'https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg?b=%23f9f9fb&size=50'
+            `https://robohash.org/${profile.name}?set=set3&size=120x120`
           }
           alt="avatar"
         />

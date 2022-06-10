@@ -33,8 +33,9 @@ export default function Header() {
             </div>
             <img
               src={
-                profile.avatar.url ||
-                'https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg?b=%23f9f9fb&size=50'
+                !profile.avatar
+                  ? `https://robohash.org/${profile.name}?set=set3&size=50x50`
+                  : profile.avatar.url
               }
               alt="Henrique Vazquez"
             />

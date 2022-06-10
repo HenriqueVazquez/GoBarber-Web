@@ -12,8 +12,9 @@ export function updateProfileSuccess(profile) {
   };
 }
 
-export function updateProfileFailure() {
+export function updateProfileFailure(erro) {
   return {
     type: '@user/UPDATE_PROFILE_FAILURE',
+    payload: { erro },
   };
 }
