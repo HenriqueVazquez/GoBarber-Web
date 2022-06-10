@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="200px" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  Aplicativo web GoBarber. contruido com react e trabahando com a api criada no <a href="https://www.linkedin.com/in/henrique-vazquez-11905ab6" target="_blank">Gobarber backend</a>, acessivél apenas aos prestadores de serviçõs para poder atualizar o cadastro e acompanhar os agendamentos :wink:
+  GoBarber web app. built with react and working with the api created in <a href="https://www.linkedin.com/in/henrique-vazquez-11905ab6" target="_blank">Gobarber backend</a>, accessible only to providers of services to be able to update the register and follow the appointments :wink:
+</h3>
+
+<p align="center">“É preciso escolher um caminho que não tenha fim, mas, ainda assim, caminhar sempre na expectativa de encontrá-lo.”!</blockquote>
+
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/HenriqueVazquez/GoBarber-Web?color=%2304D361">
+
+  <a href="https://www.linkedin.com/in/henrique-vazquez-11905ab6">
+    <img alt="Made by Henrique Vazquez" src="https://img.shields.io/badge/made%20by-HenriqueVazquez-%2304D361">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
+
+  <a href="https://github.com/HenriqueVazquez/RocketShoesRNHook/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/HenriqueVazquez/GoBarber-Web?style=social">
+  </a>
+</p>
 
 ## Available Scripts
 
@@ -8,63 +29,80 @@ In the project directory, you can run:
 
 ### `yarn start`
 
+Executa o metro bundler do aplicativo no modo de desenvolvimento.\
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+A página será recarregada quando você fizer alterações.\
+Você também pode ver erros de lint no console.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `yarn test`
+## :rocket: Sobre o desafio / about the challenge
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Aplicação react para controlar agendamentos entre prestadores de serviços, dispónibilizando tela de cadastro, login, dashboard e atualização de cadastro.
 
-### `yarn build`
+React application to control appointments between service providers, providing registration screen, login, dashboard and registration update.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologias / Technologies 💻
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project was developed with the following technologies:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
+- [redux-toolkit](https://redux-toolkit.js.org/)
+- [unform](https://github.com/unform/unform)
+- [React](https://pt-br.reactjs.org/)
+- [Axios](https://axios-http.com/)
+- [date-fns](https://date-fns.org/)
+- [Prop-Types](https://github.com/facebook/prop-types)
+- [react-icons](https://react-icons.github.io/react-icons/)
+- [immer](https://github.com/immerjs/immer)
+- [polished](https://polished.js.org/)
+- [styled-components](https://styled-components.com/)
+- [eslint](https://eslint.org/)
+- [prettier](https://eslint.org/)
+- [babel/core](https://github.com/babel/babel)
+- [react-dom](https://pt-br.reactjs.org/docs/react-dom.html)
+- [react-redux](https://react-redux.js.org/)
+- [react-router-dom](https://github.com/remix-run/react-router)
+- [react-toastify](https://fkhadra.github.io/react-toastify/introduction)
+- [reactotron-redux](https://github.com/infinitered/reactotron)
+- [reactotron-redux](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux-saga.md)
+- [redux](https://react-redux.js.org/)
+- [redux-sag](https://redux-saga.js.org/)
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  
+  ## Login
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<div align="login">
+<img alt="login" src="https://github.com/HenriqueVazquez/GoBarber-Web/blob/main/src/screenShot/login.png">
+</div>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Dashboard
 
-## Learn More
+<div align="dashboard">
+<img alt="dashboard" src="https://github.com/HenriqueVazquez/GoBarber-Web/blob/main/src/screenShot/dashboard.png">
+</div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Registrar / Register
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<div align="Register">
+<img alt="register" src="https://github.com/HenriqueVazquez/GoBarber-Web/blob/main/src/screenShot/register.png">
+  </div>
 
-### Code Splitting
+## Profile 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  <div align="center">
+  <img alt="profile" src="https://github.com/HenriqueVazquez/GoBarber-Web/blob/main/src/screenShot/profile.png">
+    </div>
 
-### Analyzing the Bundle Size
+##
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  <p align="center">
+Made by <a href="https://www.linkedin.com/in/henrique-vazquez-11905ab6" target="_blank"> Henrique Vazquez</a> :wink:
+  </p>
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
